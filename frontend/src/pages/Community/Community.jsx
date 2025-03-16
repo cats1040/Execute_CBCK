@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './community.css';
+import './Community.css';
 import Navbar from "../../components/Navbar/Navbar"
 
 const Community = () => {

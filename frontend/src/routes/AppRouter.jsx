@@ -10,7 +10,7 @@ import BusinessDashboard from "../pages/Dashboard/BusinessDashboard"
 import Register from "../pages/Register/Register"
 import BusinessRegister from "../pages/Register/BusinessRegister"
 import UserRegister from "../pages/Register/UserRegister"
-import UserDashboard from "../pages/Dashboard/userDashboard"
+import UserDashboard from "../pages/Dashboard/UserDashboard"
 
 function AppRouter(){
     return(

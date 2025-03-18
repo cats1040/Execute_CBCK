@@ -11,8 +11,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// const uri = process.env.MONGO_URI;
+const uri = "mongodb+srv://test:1234@bolobazaar-cluster.xxc5y.mongodb.net/?retryWrites=true&w=majority&appName=BoloBazaar-Cluster";
+
 mongoose
-  .connect("mongodb://127.0.0.1:27017/myDatabase")
+  .connect(uri)
   .then(() => {
     console.log("Mongo connection open");
   })

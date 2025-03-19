@@ -11,8 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// const uri = process.env.MONGO_URI;
-const uri = "mongodb+srv://test:1234@bolobazaar-cluster.xxc5y.mongodb.net/?retryWrites=true&w=majority&appName=BoloBazaar-Cluster";
+const uri = process.env.MONGO_URI;
 
 mongoose
   .connect(uri)
